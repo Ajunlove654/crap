@@ -98,7 +98,7 @@ var MemberCount = (() => {
 				return React.createElement('header', {
 					className: `${DiscordClasses.MemberList.membersGroup} container-2ax-kl`,
 					id: 'MemberCount',
-					children: ['Members', '—', this.props.count]
+					children: ['成員', '—', this.props.count]
 				});
 			}
 		};
